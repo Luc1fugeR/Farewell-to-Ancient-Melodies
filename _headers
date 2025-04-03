@@ -3,13 +3,18 @@
   Content-Encoding: br
   Cache-Control: public, max-age=31536000
 
-/Build/*.wasm
-  Content-Type: application/wasm
+/Build/*.js.br
+  Content-Type: application/javascript
+  Content-Encoding: br
   Cache-Control: public, max-age=31536000
 
 /Build/*.data.br
   Content-Type: application/octet-stream
   Content-Encoding: br
+  Cache-Control: public, max-age=31536000
+
+/Build/*.wasm
+  Content-Type: application/wasm
   Cache-Control: public, max-age=31536000
 
 /Build/*.js
